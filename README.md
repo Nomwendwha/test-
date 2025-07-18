@@ -76,3 +76,8 @@ app.post('/api/send-message', (req, res) => {
                 res.status(200).json({ message: `Mensagem enviada para o canal ${channelId}.` });
             } else {
                 res.status
+                npm install express dotenv. mkdir discord-dashboard-backend
+cd discord-dashboard-backend
+npm init -y
+
+
