@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000; // Porta do servidor, padrão 3000
 // Middleware para permitir JSON no corpo das requisições
 app.use(express.json());
 
-// --- Rotas da API ---
+// --- Routes API ---
 
 // Rota de exemplo: Home
 app.get('/', (req, res) => {
@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     });
 });
 
-// Rota de exemplo: Obter informações do bot (simulado)
+// example: bot info (simulado)
 app.get('/api/bot-info', (req, res) => {
     // Em um cenário real, você usaria uma biblioteca como 'discord.js'
     // para interagir com a API do Discord e obter as informações do bot.
