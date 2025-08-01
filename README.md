@@ -53,7 +53,7 @@ app.get('/api/guilds', (req, res) => {
     res.status(200).json(guilds);
 });
 
-// Rota de exemplo: Enviar mensagem para um canal (requer mais lógica real do Discord)
+// route exemplo: Enviar mensagem para um canal (requer mais lógica real do Discord)
 app.post('/api/send-message', (req, res) => {
     const { channelId, message } = req.body;
 
