@@ -9,7 +9,7 @@ app.use(express.json());
 
 // --- Routes API ---
 
-// routs de exemplo: Home close
+// routs de exemplo: Home closed
 app.get('/', (req, res) => {
     res.status(200).json({
         message: 'Bem-vindo à API da Dashboard do Discord!',
