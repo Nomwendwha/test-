@@ -32,7 +32,7 @@ app.get('/api/bot-info', (req, res) => {
 
     const botInfo = {
         id: '123456789012345678', // ID real do seu bot
-        username: 'MeuBotDiscord',
+        username: 'MyBotDiscord',
         discriminator: '1234',
         avatarUrl: 'https://cdn.discordapp.com/avatars/123456789012345678/a_hash.png',
         guildsCount: 5, // Número de servidores que o bot está
