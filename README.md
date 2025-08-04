@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 // example: bot info (simulated)
 app.get('/api/bot-info', (req, res) => {
-    // Em um cenáry real, você usaria uma biblioteca como 'discord.js'
+    // Em um cenário real, você usaria uma biblioteca como 'discord.js'
     // para interagir com a API do Discord e obter as informações do bot.
     // Por simplicidade, estamos simulando os dados aqui.
 
