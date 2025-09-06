@@ -44,7 +44,7 @@ app.get('/api/bot-info', (req, res) => {
     res.status(200).json(botInfo);
 });
 
-// Rota de exemplo: Obter lista de servidores (guilds) (simulado)
+// Rota de exemplo: Obtain server list - (guilds) (simulado)
 app.get('/api/guilds', (req, res) => {
     const guilds = [
         { id: '111', name: 'Servidor Teste 1', members: 100, owner: 'User1' },
